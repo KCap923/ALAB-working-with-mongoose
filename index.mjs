@@ -29,3 +29,6 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log(`Server running on port: ${PORT}`);
 });
+
+ATLAS_URI=mongodb+srv://KCap:Momorange523@cluster0.0pgzeh8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+PORT=3001
